@@ -43,10 +43,10 @@ body{
         height: 100vh;
         display: list-item;
         background: #1d1e1efb;
-        top: 76px;
+        top: 70px;
         left: -100%;
-        padding-right: 326px;
-        padding-left: 300px;
+        padding-right: 260px;
+        padding-left: 230px;
         text-align: center;
         transition: all .5s;
     }
