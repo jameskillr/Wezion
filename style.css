@@ -54,7 +54,7 @@ a.active,a:hover{
 }
 @media (max-width: 952px){
   header.logo{
-    font-size: 30px;
+    font-size: 90px;
     padding-left: 50px;
   }
   header ul li a{
