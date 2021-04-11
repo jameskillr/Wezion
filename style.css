@@ -8,8 +8,8 @@
 }
 body{
   font-family: montserrat;
-  padding: 2px;
-  margin: 2px;
+  padding:0 2px;
+  margin:0 2px;
   scroll-behavior: smooth;
 }
 header{
