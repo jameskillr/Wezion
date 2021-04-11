@@ -41,7 +41,7 @@ body{
         position: fixed;
         width: 100px;
         height: 100vh;
-        display: list-item;
+        /*display: list-item;*/
         background: #1d1e1efb;
         top: 65px;
         left: -100%;
