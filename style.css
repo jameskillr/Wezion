@@ -17,6 +17,7 @@ header{
   background: black;
   height: 80px;
   width: 100%;
+  Z-index: 1000;
 }
 header.sticky{
     padding-top: 10px;
@@ -30,6 +31,7 @@ header.logo{
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
+  height: 80px;
 }
 header ul{
   float: right;
