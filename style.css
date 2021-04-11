@@ -28,7 +28,7 @@ header.sticky{
 }
 label.logo{
   color: white;
-  font-size: 85px;
+  font-size: 35px;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
@@ -68,7 +68,7 @@ a.active,a:hover{
 }
 @media (max-width: 952px){
   header.logo{
-    font-size: 90px;
+    font-size: 30px;
     padding-left: 50px;
   }
   header ul li a{
