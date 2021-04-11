@@ -61,7 +61,7 @@ header ul{
         font-size: 16px;
     }
 }
-@media (max-width: 858px){
+@media (max-width: 420px){
     .checkbtn{
         display: block;
     }
@@ -71,8 +71,8 @@ header ul{
         height: 100vh;
         display: list-item;
         background: #1d1e1efb;
-        top: 65px;
-        left: -100%;
+        top: 80px;
+        left: -100;
         padding-right: 220px;
         padding-left: 190px;
         text-align: center;
@@ -80,14 +80,14 @@ header ul{
     }
     header ul li{
         display: block;
-        margin: 50px 1px;
+        margin: 50px 0;
         line-height: 30px;
     }
     header ul li a{
         font-size: 20px;
     }
     a:hover a.active{
-        background: #e6ebf0;
+        background: none;
         text-decoration: none;
         text-decoration-line: none;
 
