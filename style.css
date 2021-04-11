@@ -15,7 +15,7 @@ header{
 }
 header.logo{
   color: white;
-  font-size: 35px;
+  font-size: 85px;
   line-height: 80px;
   padding: 0 100px;
   font-weight: bold;
@@ -37,7 +37,7 @@ header ul li a{
   text-transform: uppercase;
 }
 a.active,a:hover{
-  background: #1b9bff;
+  background: transparent;
   transition: .5s;
 }
 .checkbtn{
