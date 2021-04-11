@@ -150,7 +150,7 @@ header.sticky ul li a{
 }
 .active,a:hover{
     /* background: rgba(0, 0, 0, 0.102); */
-    transition: .5s;
+    transition: 3s;
 }
 header ul li a:hover{
     border-radius: 30px;
@@ -159,7 +159,7 @@ header ul li a:hover{
     text-decoration-line: none;
     /* text-shadow: rgb(217, 250, 5) 1px 2px; */
     text-transform: uppercase;
-    transition: 0.8s;
+    transition: 3s;
 }
 .search-box{
     position: absolute;
