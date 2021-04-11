@@ -241,7 +241,7 @@ header ul li a:hover{
 
 .img-slider .slide.active{
   clip-path: circle(150% at 0 50%);
-  transition: 1s;
+  transition: 2s;
   transition-property: clip-path;
 }
 
@@ -359,7 +359,7 @@ header ul li a:hover{
 
 @media (max-width: 420px){
   .img-slider{
-    width: 410px;
+    width: 400px;
     height: 200px;
   }
 
