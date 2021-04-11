@@ -45,8 +45,8 @@ body{
         background: #1d1e1efb;
         top: 70px;
         left: -100%;
-        padding-right: 260px;
-        padding-left: 230px;
+        padding-right: 220px;
+        padding-left: 190px;
         text-align: center;
         transition: all .5s;
     }
