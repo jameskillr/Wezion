@@ -362,7 +362,7 @@ header ul li a:hover{
 @media (max-width: 420px){
   .img-slider{
     width: 380px;
-    height: 100px;
+    height: 300px;
   }
 
   .img-slider .slide .info{
