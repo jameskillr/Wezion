@@ -206,6 +206,7 @@ header ul li a:hover{
 }
 .home-section{
     height: 100vh;
+    margin-top: 50px;
 }
 .videos-section{
     height: 100vh;
