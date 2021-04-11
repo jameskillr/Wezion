@@ -224,21 +224,6 @@ header ul li a:hover{
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #1D212B;
-}*/
-
 .img-slider{
   position: relative;
   width: 800px;
@@ -256,7 +241,7 @@ body{
 
 .img-slider .slide.active{
   clip-path: circle(150% at 0 50%);
-  transition: 2s;
+  transition: 1s;
   transition-property: clip-path;
 }
 
@@ -374,7 +359,7 @@ body{
 
 @media (max-width: 420px){
   .img-slider{
-    width: 320px;
+    width: 420px;
     height: 200px;
   }
 
@@ -387,7 +372,7 @@ body{
   }
 
   .img-slider .slide .info p{
-    width: 100%;
+    width: 90%;
     font-size: 11px;
   }
 
