@@ -9,7 +9,7 @@
 body{
   font-family: montserrat;
   padding:0 2px;
-  background: black;
+  background-color: black;
   scroll-behavior: smooth;
 }
 header{
