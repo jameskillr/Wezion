@@ -52,7 +52,7 @@ body{
     }
     header ul li{
         display: block;
-        margin: 50px 50px;
+        margin: 50px 1px;
         line-height: 30px;
     }
     header ul li a{
@@ -67,12 +67,6 @@ body{
     #check:checked ~ ul{
         left: 0;
     }
-}
-#hd1{
-    color: tomato;
-    background-color: black;
-    padding:  2%;
-     border: 1px tomato solid;
 }
 header{ 
     position: fixed;
@@ -92,8 +86,6 @@ header.sticky{
     padding-bottom: 60px;
     margin-top: 0px;
     background: rgba(8, 8, 8, 0.49);
-
-
 }
 header .logo{
     position: relative;
@@ -105,8 +97,8 @@ header .logo{
     font-size: 35px;
 }
 header ul{
-    /* position: relative; */
-    /* display: flex; */
+    position: relative;
+    display: flex; 
     float: right;
     margin-right: 20px;
     justify-content: center;
