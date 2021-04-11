@@ -4,11 +4,16 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  
 }
 body{
   font-family: montserrat;
+  padding: 2px;
+  margin: 2px;
+  scroll-behavior: smooth;
 }
 header{
+  position: fixed;
   background: black;
   height: 80px;
   width: 100%;
