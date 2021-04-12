@@ -9,6 +9,7 @@
 body{
   font-family: montserrat;
   padding:0 2px;
+  color: white
   background-color: black;
   scroll-behavior: smooth;
 }
@@ -53,7 +54,7 @@ header ul li a:hover{
     border-radius: 30px;
     padding: 2px;
     text-decoration-line: none;
-    text-shadow: rgb(217, 250, 5) 1px 2px;
+    text-shadow: dimgrey 1px 2px;
     text-transform: uppercase;
     transition: 3s;
 }
