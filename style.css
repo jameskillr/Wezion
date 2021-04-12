@@ -9,8 +9,8 @@
 body{
   font-family: montserrat;
   padding:0 2px;
-  color: white
   background-color: black;
+  color: white;
   scroll-behavior: smooth;
 }
 header{
