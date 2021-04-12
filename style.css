@@ -60,7 +60,8 @@ header ul li a:hover{
 }
 a.active,a:hover{
   background: transparent;
-  transition: .5s;
+  transition: 1s;
+  text-shadow: lime green 1px 2px;
 }
 .checkbtn{
   font-size: 30px;
