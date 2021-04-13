@@ -119,9 +119,9 @@
   }
   /* header ul li .search-box{ */
       /* position: relative; */
-      /* display: flex; */
+      /* display: flex; 
       letter-spacing: 2px;
-  }
+  }*/
   .search-box{
       position: absolute;
       top: 50%;
