@@ -1,158 +1,54 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>log in</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/
-css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l
-9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
-<style type="text/css">
-    form{
-        width: 40px;
-        height: 500px;
-        padding: 50px 60px;
-        border-radius: 20px;
-        margin-left: 37%;
-        margin-top: 2%;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bs/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Login</title>
+    <style>
+        form{
+            margin: 9% 40%;
+            font-family:cursive;
         }
-        /* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
-}
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 800px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 50%;
-  }
-  #tit1{
-    margin-top: 500px;
-  }
-}
-    form:hover{
-         box-shadow: -1px -2px 21px 17px rgba(0,0,0,0.81);
-        -webkit-box-shadow: -1px -2px 21px 17px rgba(0,0,0,0.81);
-        -moz-box-shadow: -1px -2px 21px 17px rgba(0,0,0,0.81);
-        transition: 3s;
-    }
-    body{
-         position: relative;
-    background-image: url("6.jpg");
-    width: 1080px;
-    height: 2234px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    #f1{
-      background-color: transparent;
-      width: 50%;
-    }
-    #s1{
-      text-decoration: none;
-      border: none;
-      background-color: transparent;
-    }
-    #b1{
-        text-decoration:none;
-        border: none;
-        background-color: transparent;
-    }
-    #btn1{
-      text-decoration: none;
-      border: none;
-      background-color: transparent;
-    }
-    .mb3{
-         Padding: 10px;
-    }
+        h1{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-shadow:2px 3px greenyellow ;
+        }
+        .m{
+            margin-left: 50px;
+        }
+        #btn1{
+            width: 80%;
+            background-color:chartreuse;
+        }
     </style>
 </head>
-<!---- <body align="center">
-        <h1 font-size="200px">Log in</h1>
-      <form>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div><br>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div><br>
-  <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button><br>
-  <button formtarget="_blank" id="s1"> <a href="sign in.html">Sign In</a></button>
-        <button formtarget="_blank" id="b1"> <a href="wezion.html">Back</a></button>
-        <body > -->
-    
-
-          <h2 id="tit1">Login</h2><br>
-          <br>
-          
-          <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" id="btn1">Login</button>
-          
-          <div id="id01" class="modal">
-            
-            <form  id="f1" class="modal-content animate" action="/action_page.php" method="post">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <!--<img src="img_avatar2.png" alt="Avatar" class="avatar">-->
-              </div>
-          
-              <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-          
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                  
-                <button type="submit">Login</button>
-                <label>
-                  <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-              </div>
-          
-              <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                <span class="psw">Forgot <a href="#">password?</a></span>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button><br>
-              <button formtarget="_blank" id="s1"> <a href="sign in.html">Sign In</a></button>
-              <button formtarget="_blank" id="back1"> <a href="index.html">back</a></button>
-             
-            </form>
-          </div>
-          
-          <script>
-          // Get the modal
-          var modal = document.getElementById('id01');
-          
-          // When the user clicks anywhere outside of the modal, close it
-          window.onclick = function(event) {
-              if (event.target == modal) {
-                  modal.style.display = "none";
-              }
-          }
-          </script>
+<body>
+    <form action="submit" name="contact" netlify>
+        <h1> Join Wezion</h1><br>
+        <p>
+        <input type="email" name="email" placeholder="Email" required><br><br>
+        </p>
+        <p>
+        <input type="password" id="userInput" placeholder="Password" required><br>
+        <input type="checkbox" name="" id="" onclick="showFunction()">Show Password
+        </p>
+        <br><br>
+        <p>
+        <button type="submit" id="btn1">Login</button>
+        </p>
+    </form>
+    <script>
+        function showFunction(){
+            var x = document.getElementById("userInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else{
+                x.type = "password";
+            }
+        }
+    </script>
 </body>
 </html>
