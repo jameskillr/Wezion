@@ -6,6 +6,12 @@
     box-sizing: border-box;
     
   }
+  /* theme */
+  @media(prefers-color-scheme: light){
+  body{
+     background-color: #FFFAFA;
+   }
+  }
   body{
     font-family: montserrat;
     padding: 0 14px;
