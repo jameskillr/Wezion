@@ -34,7 +34,7 @@ header.sticky{
 label.logo{
   color: black;
   font-size: 45px;
-  text-shadow: chartreuse 1px 2px;
+/*   text-shadow: chartreuse 1px 2px; */
   line-height: 60px;
   padding: 0 50px;
   font-weight: bold;
@@ -59,7 +59,6 @@ header ul li a:hover{
     border-radius: 30px;
     padding: 5px;
     text-decoration-line: none;
-    /* text-shadow: rgb(4, 245, 169) 1px 2px; */
     text-transform: uppercase;
     transition: 1s;
 }
