@@ -9,40 +9,65 @@
     <title>Login</title>
     <style>
         form{
-            margin: 9% 40%;
-            font-family:cursive;
+            margin: 9% 20%;
+            font-family: sans-serif;
+            text-align: center;
         }
         h1{
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            text-shadow:2px 3px greenyellow ;
+            text-shadow:2px 3px lime;
+            color: white;
         }
-        .m{
-            margin-left: 50px;
+        input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+        .i1{
+            width: 50%;
+        }
+        i{
+            padding: 20px 30px;
+            font-size: 27px;
+        }
+        @media(prefers-color-scheme:dark){
+        body{
+            background-color: rgb(20, 20, 20);
+            }
+        form{
+            color: floralwhite;
+        }
+        h1{
+            background-color: rgb(20, 20, 20);
+            color: rgb(20, 20, 20);
+          }
         }
         #btn1{
-            width: 80%;
-            background-color:chartreuse;
+            width: 40%;
+            background-color: lime;
         }
-        @media (max-width: 420px){  
-            Form{
-                Margin: 10px 80px;
-                }
+        @media (max-width: 300px){
+            form{
+                margin: 10px 20px;
+            }
         }
     </style>
 </head>
 <body>
+    <a href="wezion.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
     <form action="submit" name="contact" netlify>
-        <h1> Join Wezion</h1><br>
+        <h1> Wezion</h1><br>
         <p>
-        <input type="email" name="email" placeholder="Email" required><br><br>
+        <input class="i1" type="email" name="email" placeholder="Email" required><br><br>
         </p>
         <p>
-        <input type="password" id="userInput" placeholder="Password" required><br>
+        <input class="i1" type="password" id="userInput" placeholder="Password" required><br>
         <input type="checkbox" name="" id="" onclick="showFunction()">Show Password
         </p>
-        <br><br>
+        <br>
         <p>
-        <button type="submit" id="btn1">Login</button>
+        <button type="submit" id="btn1">Register</button>
+        <h6> We will get you notified with our new projects.....</h6><br> Thank you.
         </p>
     </form>
     <script>
