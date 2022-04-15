@@ -23,7 +23,7 @@
             <li><a href="#photo">Photographs</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="Join us.html" id="ji1">Join Us</a></li>
+            <li><a href="./Html/Signup.html" id="ji1">Join Us</a></li>
             <li><div class="search-box">
             <input type="search" placeholder=" search" class="search-txt" >
             <span class="search-btn" href="#">
@@ -37,35 +37,35 @@
     <section id="home">
       <div class="img-slider">
       <div class="slide active">
-        <img src="1.jpg" alt="">
+        <img src="./Images/1.jpg" alt="">
         <div class="info">
           <h2>Travel With Peacefull Mind</h2>
           <p>Safar sundar hain mansil se bhi</p>
         </div>
       </div>
       <div class="slide">
-        <img src="10.jpg" alt="">
+        <img src="./Images/10.jpg" alt="">
         <div class="info">
           <h2>Do Bike Rides with Friends.</h2>
           <p>Mushkik rastein aksar humein khobsurat mansil par le jate hain</p>
         </div>
       </div>
       <div class="slide">
-        <img src="6.jpg" alt="">
+        <img src="./Images/6.jpg" alt="">
         <div class="info">
           <h2>Explore The beauty of World Around.</h2>
           <p>Jo nasare hum mehsus karte hain unhein sabdo mein baya karna asan nahi!</p>
         </div>
       </div>
       <div class="slide">
-        <img src="12.jpg" alt="">
+        <img src="./Images/12.jpg" alt="">
         <div class="info">
           <h2>Great Things Never Come From Comfort Zones.</h2>
           <p>kaie bar apne app ko roktein hain kuch naya karne se, Har din kuch naya karna hain</p>
         </div>
       </div>
       <div class="slide">
-        <img src="13.jpg" alt="">
+        <img src="./Images/13.jpg" alt="">
         <div class="info">
           <h2>Smell The Sea, and Feel The Sky. Let Your Soul and Spirit Fly.</h2>
           <p>Apne har pal ko Khushi se jina aur enjoy karna is Life</p>
@@ -93,7 +93,7 @@
             <h2>Videos</h2>
             We create VLogs and cimatics,slow-motion,but <br> Now Only exploring 
 bhilai, further approach to explore the world</p>
-            <button id="btn1" formaction="_blank"><a href="videos.html">Antargat..</button></a>
+            <button id="btn1" formaction="_blank"><a href="./Html/videos.html">Antargat..</button></a>
         </section>
         
     </div>
@@ -112,7 +112,7 @@ bhilai, further approach to explore the world</p>
                  exercitationem fugiat harum pariatur sequi similique tenetur vitae. Aliquam amet 
                  est excepturi, exercitationem facere
                  fugit ipsa laborum molestiae nemo officiis placeat quos repellat saepe temporibus voluptatum.</p>
-                        <button id="btn2" action="_blank"><a href="images.html">Antargat..</button></a>
+                        <button id="btn2" action="_blank"><a href="./Html/images.html">Antargat..</button></a>
         </section>    
     </div>
     <hr>
@@ -144,35 +144,35 @@ bhilai, further approach to explore the world</p>
 
     <div class="profiles">
       <div class="profile">
-        <img src="9.jpg" class="profile-img">
+        <img src="./Images/9.jpg" class="profile-img">
 
         <h3 class="user-name">Amitesh</h3>
         <h5>Founder</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet soluta hic sunt sit reprehenderit.</p>
       </div>
       <div class="profile">
-        <img src="A.jpg" class="profile-img">
+        <img src="./Images/A.jpg" class="profile-img">
 
         <h3 class="user-name">Abhinav deulkar</h3>
         <h5>Marketing Head</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis sint quod.</p>
       </div>
       <div class="profile">
-        <img src="M.jpg" class="profile-img">
+        <img src="./Images/M.jpg" class="profile-img">
 
         <h3 class="user-name">Mayank Mandavi</h3>
         <h5>Finance Head</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis sint quod.</p>
       </div>
       <div class="profile">
-        <img src="R.jpg" class="profile-img">
+        <img src="./Images/R.jpg" class="profile-img">
 
         <h3 class="user-name">Rahul Reddy</h3>
         <h5>Travel Management</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis sint quod.</p>
       </div>
       <div class="profile">
-        <img src="G.jpg" class="profile-img">
+        <img src="./Images/G.jpg" class="profile-img">
 
         <h3 class="user-name">Gaurav Verma</h3>
         <h5>Control Management</h5>
@@ -184,270 +184,7 @@ bhilai, further approach to explore the world</p>
     </div>
     <div class="login-section"></div>
     <section id="join">
-      <button id="btn4" action="_blank"><a href="Join us.html">Antargat..</button></a>
-    </section>
-
-    <footer>
-      <section>
-      <h5> 
-        2020-2021 &copy; All rights reserved<br> 9996, Sector Area, Bhilai, Chhattisgarh <br>
-        490001
-      </h5>
-    </section>
-    </footer>
-
-    <script type="text/javascript">
-        window.addEventListener("scroll",function(){
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky",window.scrollY > 0);
-        })
-
-    var slides = document.querySelectorAll('.slide');
-    var btns = document.querySelectorAll('.btn');
-    let currentSlide = 1;
-
-    // Javascript for image slider manual navigation
-    var manualNav = function(manual){
-      slides.forEach((slide) => {
-        slide.classList.remove('active');
-
-        btns.forEach((btn) => {
-          btn.classList.remove('active');
-        });
-      });
-
-      slides[manual].classList.add('active');
-      btns[manual].classList.add('active');
-    }
-
-    btns.forEach((btn, i) => {
-      btn.addEventListener("click", () => {
-        manualNav(i);
-        currentSlide = i;
-      });
-    });
-
-    // Javascript for image slider autoplay navigation
-    var repeat = function(activeClass){
-      let active = document.getElementsByClassName('active');
-      let i = 1;
-
-      var repeater = () => {
-        setTimeout(function(){
-          [...active].forEach((activeSlide) => {
-            activeSlide.classList.remove('active');
-          });
-
-        slides[i].classList.add('active');
-        btns[i].classList.add('active');
-        i++;
-
-        if(slides.length == i){
-          i = 0;
-        }
-        if(i >= slides.length){
-          return;
-        }
-        repeater();
-      }, 10000);
-      }
-      repeater();
-    }
-    repeat();
-    //handburger 
-      $("#wrapper").click( function(){
-         $(".icon").toggleClass("close");
-      });
-    </script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bs/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="icon" href="logo.png" type="image/x-icon">
-    <title>Wezion</title>
-</head>
-<body>
-    <header>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-        </label>
-        <label href="index.html" class="logo">Wezion</label>
-          <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#videos">Videos</a></li>
-            <li><a href="#photo">Photographs</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="Join us.html" id="ji1">Join Us</a></li>
-            <li><div class="search-box">
-            <input type="search" placeholder=" search" class="search-txt" >
-            <span class="search-btn" href="#">
-            <img src="https://img.icons8.com/nolan/35/search.png"/>
-            </span></li>
-          </ul>
-    </header>
-        </div>
-    <br> <br>
-    <br>
-    <section id="home">
-      <div class="img-slider">
-      <div class="slide active">
-        <img src="1.jpg" alt="">
-        <div class="info">
-          <h2>Travel With Peacefull Mind</h2>
-          <p>Safar sundar hain mansil se bhi</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="10.jpg" alt="">
-        <div class="info">
-          <h2>Do Bike Rides with Friends.</h2>
-          <p>Mushkik rastein aksar humein khobsurat mansil par le jate hain</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="6.jpg" alt="">
-        <div class="info">
-          <h2>Explore The beauty of World Around.</h2>
-          <p>Jo nasare hum mehsus karte hain unhein sabdo mein baya karna asan nahi!</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="12.jpg" alt="">
-        <div class="info">
-          <h2>Great Things Never Come From Comfort Zones.</h2>
-          <p>kaie bar apne app ko roktein hain kuch naya karne se, Har din kuch naya karna hain</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="13.jpg" alt="">
-        <div class="info">
-          <h2>Smell The Sea, and Feel The Sky. Let Your Soul and Spirit Fly.</h2>
-          <p>Apne har pal ko Khushi se jina aur enjoy karna is Life</p>
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="btn active"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-      </div>
-    </div>
- </section>
- <br>
-   <br>
-   <br>
-    <hr>
-    <div class="videos-section">
-        <section id="videos">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>Videos</h2>
-            We create VLogs and cimatics,slow-motion,but <br> Now Only exploring 
-bhilai, further approach to explore the world</p>
-            <button id="btn1" formaction="_blank"><a href="videos.html">Antargat..</button></a>
-        </section>
-        
-    </div>
-    <hr>
-    <div class="photographs-section">
-        <div id="bg3" style="background-image: url('20.jpg');">
-        <section id="photo">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>Gallery</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid atque
-                 commodi dolor est nobis veniam! Eius rerum, unde. Accusamus corporis esse eveniet
-                 exercitationem fugiat harum pariatur sequi similique tenetur vitae. Aliquam amet 
-                 est excepturi, exercitationem facere
-                 fugit ipsa laborum molestiae nemo officiis placeat quos repellat saepe temporibus voluptatum.</p>
-                        <button id="btn2" action="_blank"><a href="images.html">Antargat..</button></a>
-        </section>    
-    </div>
-    <hr>
-    <div class="service-section">
-      <a target="_blank" href="https://www.vexels.com/vectors/preview/128930/travel-badge"> Travel badge </a> |   Designed by Vexels.com
-        <section id="services">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>Services</h2>
-            <p>We provide </p>
-            <button id="btn4" action="_blank"><a href="#">Antargat..</button></a>
-        </section>
-        
-    </div>
-    <div class="about-section">
-        <section id="about">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>About</h2>
-            We are Basically <em> Five Friends</em> from Bhilai,Chhattisgarh creating YouTube related content <br>
-            and in future thinking of commercials/ Ads/ Cinematics/ Short films/ and more....</p>
-                        <button id="btn3" action="_blank"><a href="#">Antargat..</button></a>
-             <div class="container">
-    <h1 class="heading"><span>meet</span>Our Team</h1>
-
-    <div class="profiles">
-      <div class="profile">
-        <img src="9.jpg" class="profile-img">
-
-        <h3 class="user-name">Amitesh</h3>
-        <h5>Founder</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum eveniet soluta hic sunt sit reprehenderit.</p>
-      </div>
-      <div class="profile">
-        <img src="A.jpg" class="profile-img">
-
-        <h3 class="user-name">Abhinav deulkar</h3>
-        <h5>Marketing Head</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis sint quod.</p>
-      </div>
-      <div class="profile">
-        <img src="M.jpg" class="profile-img">
-
-        <h3 class="user-name">Mayank Mandavi</h3>
-        <h5>Finance Head</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis sint quod.</p>
-      </div>
-      <div class="profile">
-        <img src="R.jpg" class="profile-img">
-
-        <h3 class="user-name">Rahul Reddy</h3>
-        <h5>Travel Management</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facilis sint quod.</p>
-      </div>
-      <div class="profile">
-        <img src="G.jpg" class="profile-img">
-
-        <h3 class="user-name">Gaurav Verma</h3>
-        <h5>Control Management</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, eveniet!</p>
-      </div>
-    </div>
-  </div>
-        </section>
-    </div>
-    <div class="login-section"></div>
-    <section id="join">
-      <button id="btn4" action="_blank"><a href="Join us.html">Antargat..</button></a>
+      <button id="btn4" action="_blank"><a href="./Html/Login.html us.html">Antargat..</button></a>
     </section>
 
     <footer>
