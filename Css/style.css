@@ -1,0 +1,154 @@
+.navbar-brand {
+  font-family: montserrat;
+  text-shadow: 2.2px 2px 6px chartreuse;
+  /* text-shadow: 2px 1.6px chartreuse; */
+  line-height: 60px;
+  padding: 0 50px;
+  /* font-weight: bold; */
+  height: 80px;
+}
+
+.nav-item {
+  margin-bottom: 1rem;
+}
+
+.nav-linkt {
+  padding-right: 30px;
+  margin-right: 100px;
+  text-transform: uppercase;
+  color: #5e6282;
+  text-decoration: none;
+}
+
+.nav-linkt:hover {
+  color: rgb(111, 0, 255);
+  font-weight: 600;
+  text-shadow: 1px 1.6px aquamarine;
+}
+
+.carousel-item {
+  height: 690px;
+  position: fixed;
+  background: black;
+}
+
+.i_serv {
+  /* Group 4 */
+
+  position: absolute;
+  width: 153px;
+  height: 166px;
+  left: 1229px;
+  top: 966px;
+}
+
+.search_bx {
+  left: 450px;
+}
+#serc {
+  margin-right: 7px;
+}
+
+.btn-group {
+  /* Group 57 */
+
+  position: absolute;
+  width: 220px;
+  height: 48px;
+  background: rgb(81, 0, 180);
+  right: 3rem;
+  border-radius: 2rem;
+  /* left: 832px;
+  top: 4108px; */
+}
+.btn:hover {
+  background-color: rgb(111, 0, 255);
+}
+
+.p_cat {
+  /* CATEGORY */
+
+  position: absolute;
+  width: 98px;
+  height: 27px;
+  left: 652px;
+  top: 974px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.h_offer {
+  /* We Offer Best Services */
+
+  position: absolute;
+  width: 547px;
+  height: 65px;
+  left: 428px;
+  top: 1011px;
+
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* 3rd */
+
+  color: #14183e;
+}
+
+#s_1 {
+  /* satellite-dish */
+
+  position: absolute;
+  width: 66.74px;
+  height: 70px;
+  left: 207px;
+  top: 1186px;
+}
+#s_2 {
+  /* plane */
+
+  position: absolute;
+  width: 137.29px;
+  height: 95.23px;
+  left: 466.21px;
+  top: 1214.52px;
+
+  transform: rotate(-31.84deg);
+}
+#s_3 {
+  /* image 25 */
+
+  position: absolute;
+  width: 40px;
+  height: 69px;
+  left: 829px;
+  top: 1190px;
+
+  border-radius: 0px 0px 30px 35px;
+}
+#s_4 {
+  /* power-supply 1 */
+
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1125px;
+  top: 1197px;
+}
