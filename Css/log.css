@@ -1,0 +1,47 @@
+form {
+  margin: 40px 400px 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-shadow: 2px 3px lime;
+  color: white;
+}
+input {
+  border-top: none;
+  border-radius: 8px;
+  border-left: none;
+  border-right: none;
+}
+.i1 {
+  width: 50%;
+}
+i {
+  padding: 20px 30px;
+  margin-left: 270px;
+  margin-top: 60px;
+  font-size: 27px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(20, 20, 20);
+  }
+  form {
+    color: floralwhite;
+  }
+  h1 {
+    background-color: rgb(20, 20, 20);
+    color: rgb(20, 20, 20);
+  }
+}
+#btn1 {
+  width: 40%;
+  border-radius: 5px;
+  background-color: lime;
+}
+@media (max-width: 300px) {
+  form {
+    margin: 10px 20px;
+  }
+}
