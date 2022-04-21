@@ -1,427 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="icon" href="logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/ce19cd7152.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Wezion</title>
-</head> 
-<body>
-  <!-- header............ -->
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold fs-1" href="index.html">Wezion</a>
-      </div>
-        <form
-          class="search_bx d-flex position-absolute top-50 start-35 translate-middle"
+  </head>
+  <body>
+    <section class="header" id="home">
+      <nav>
+        <a href="./Index.html"
+          ><img src="./Icons/logoh.png" />
+          <h1>ezion</h1></a
         >
-          <input
-            class="form-control me-2 bg-dark"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
+        <div class="nav-links" id="navLinks">
+          <img
+            src="./Icons/cancel.png"
+            onclick="hideMenu()"
+            class="i_nav"
+            alt=""
           />
-          <button class="btn btn-outline-success" id="serc" type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-          <button class="btn btn-outline-success bi bi-search" type="submit">
-            <i class="fa-solid fa-microphone-lines"></i>
-          </button>
-        </form>
-        <div class="btn-group" role="group" aria-label="Basic example">
-          <a type="button" class="btn" role="button" href="./Html/Login.html">Login<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-          <a type="button" class="btn" role="button" href="./Html/Signup.html">SignUp<i class="fa-solid fa-user-plus"></i></a>
+          <ul>
+            <li>
+              <a href="#home">HOME</a>
+            </li>
+            <li>
+              <a href="#videos">VIDEOS</a>
+            </li>
+            <li>
+              <a href="#gallery">GALLERY</a>
+            </li>
+            <li>
+              <a href="#about">ABOUT</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
         </div>
-      </div>
-  </div>
-
-  <!-- <hr> -->
-    <!-- navbar.................. -->
-    <div class="nav_section">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon position-absolute top-0 end-0"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse position-absolute top-50 start-50 translate-middle"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-linkt active" aria-current="page" href="#home"
-                  ><strong>Home</strong></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-linkt" href="#videos"><strong>Videos</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-linkt" href="#photo"><strong>Gallery</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-linkt" href="#services"><strong>Services</strong></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-linkt" href="#about"><strong>About</strong></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-linkt dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="true"
-                ><strong>
-                Join Us
-              </strong>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./Html/Signup.html">Sign-up</a></li>
-                  <li><a class="dropdown-item" href="#">Login</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">settings...</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <img
+          src="./Icons/menu.png"
+          onclick="showMenu()"
+          class="i_nav"
+          alt=" "
+        />
       </nav>
-    </div>
-    <!-- image slider----------- -->
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade w-100" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <div class="text-box">
+        <h1>Let's Explore the World Together</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Itaque, dolor suscipit!
+          Laborum <br />animi quas tenetur quos dolores ? Dolores dolor.
+        </p>
+        <a href="http://" class="h_btn">Visit Us to know more</a>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="1000">
-          <img src="./Images/1.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Travel With Peacefull Mind</h2>
-            <p>Safar sundar hain mansil se bhi.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="./Images/10.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Do Bike Rides with Friends</h2>
-            <p>Mushkik rastein aksar humein khobsurat mansil par le jate hain.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./Images/6.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Explore The beauty of World Around.</h2>
-            <p>Jo nasare hum mehsus karte hain unhein sabdo mein baya karna asan nahi!</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./Images/12.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Great Things Never Come From Comfort Zones.</h2>
-            <p>kaie bar apne app ko roktein hain kuch naya karne se, Har din kuch naya karna hain.</p>
-          </div>
-        </div>
-        <div class="carousel-item" >
-          <img src="./Images/13.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Smell The Sea, and Feel The Sky. Let Your Soul and Spirit Fly.</h2>
-            <p>Apne har pal ko Khushi se jina aur enjoy karna is Life.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <!-- <br> <br>
-    <br>
-    <section id="home">
-      <div class="img-slider">
-      <div class="slide active">
-        <img src="./Images/1.jpg" alt="">
-        <div class="info">
-          <h2>Travel With Peacefull Mind</h2>
-          <p>Safar sundar hain mansil se bhi</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="./Images/10.jpg" alt="">
-        <div class="info">
-          <h2>Do Bike Rides with Friends.</h2>
-          <p>Mushkik rastein aksar humein khobsurat mansil par le jate hain</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="./Images/6.jpg" alt="">
-        <div class="info">
-          <h2>Explore The beauty of World Around.</h2>
-          <p>Jo nasare hum mehsus karte hain unhein sabdo mein baya karna asan nahi!</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="./Images/12.jpg" alt="">
-        <div class="info">
-          <h2>Great Things Never Come From Comfort Zones.</h2>
-          <p>kaie bar apne app ko roktein hain kuch naya karne se, Har din kuch naya karna hain</p>
-        </div>
-      </div>
-      <div class="slide">
-        <img src="./Images/13.jpg" alt="">
-        <div class="info">
-          <h2>Smell The Sea, and Feel The Sky. Let Your Soul and Spirit Fly.</h2>
-          <p>Apne har pal ko Khushi se jina aur enjoy karna is Life</p>
-        </div>
-      </div>
-      <div class="navigation">
-        <div class="btn active"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
-      </div>
-    </div>
- </section>
- <br>
-   <br> -->
-<!-- services-----------------------------section----------------- -->
-<div class="services" id="services">
-  <img src="./images/p1.png" class="i_serv img-fluid" />
-  <p class="p_cat">CATEGORY</p>
-  <h1 class="h_offer">We Offer Best Services</h1>
-  
-  
-  <div class="container_cat">
-    <i class="fa-solid fa-clouds-sun" id="s_1"></i>
-    <h4 class="h_watr">Calculated Weather</h4>
-    <p class="p_desc">Built Wicket longer admire do barton vanity itself do in it.</p>
-  </div>
-  <div class="container_cat">
-    <i class="fa-solid fa-plane-circle-check" id="s_2"></i>
-    <h4 class="h_watr1">Best Flights</h4>
-    <p class="p_desc1">Engrossed listening. Park gate sell they west hard for the.</p>
-  </div>
-  <div class="container_cat">
-    <i class="fa-regular fa-calendar-lines-pen" id="s_3"></i>
-    <h4 class="h_watr2">Local Events</h4>
-    <p class="p_desc2">Barton vanity itself do in it. Preferd to men it engrossed listening. </p>
-  </div>
-  <div class="container_cat">
-    <i class="fa-regular fa-tire-rugged" id="s_4"></i>
-    <h4 class="h_watr3">Cutomization</h4>
-    <p class="p_desc3">We deliver outsourced
-      aviation services for
-      military customers</p>
-  </div>
-</div>
-
-<!-- destinations-----------------------------section----------------- -->
-<div class="destns">
-  <p class="p_cat1">Top Selling</p>
-  <h1 class="h_offer1">Top Destinations</h1>
-</div>
-<div></div>
-
-
-   <br>
-    <hr>
-    <div class="videos-section">
-        <section id="videos">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>Videos</h2>
-            We create VLogs and cimatics,slow-motion,but <br> Now Only exploring 
-bhilai, further approach to explore the world</p>
-            <button id="btn1" formaction="_blank"><a href="./Html/videos.html">...</button></a>
-        </section>
-        
-    </div>
-    <hr>
-    <div class="photographs-section">
-      <div class="text-center">
-        <img src="./Images/t2.jpg" class="rounded" alt="...">
-      </div>
-        <section id="photo">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>Gallery</h2>
-            <p>
-                Lorem ipsum</p>
-                        <button id="btn2" action="_blank"><a href="./Html/images.html">...</button></a>
-        </section>    
-    </div>
-    <hr>
-    
-    <div class="about-section">
-        <section id="about">
-          <br>
-          <br>
-          <br>
-          <br>
-            <h2>About</h2>
-            We are Basically <em> Five Friends</em> from Bhilai,Chhattisgarh creating YouTube related content <br>
-            and in future thinking of commercials/ Ads/ Cinematics/ Short films/ and more....</p>
-                        <button id="btn3" action="_blank"><a href="#">...</button></a>
-             <div class="container">
-    <h1 class="heading"><span>meet</span>Our Team</h1>
-
-    <div class="profiles">
-      <div class="profile">
-        <img src="./Images/9.jpg" class="profile-img">
-
-        <h3 class="user-name">Amitesh</h3>
-        <h5>Founder</h5>
-        <p>.</p>
-      </div>
-      <div class="profile">
-        <img src="./Images/A.jpg" class="profile-img">
-
-        <h3 class="user-name">Abhinav deulkar</h3>
-        <h5>Marketing Head</h5>
-        <p>.</p>
-      </div>
-      <div class="profile">
-        <img src="./Images/M.jpg" class="profile-img">
-
-        <h3 class="user-name">Mayank Mandavi</h3>
-        <h5>Finance Head</h5>
-        <p></p>
-      </div>
-      <div class="profile">
-        <img src="./Images/R.jpg" class="profile-img">
-
-        <h3 class="user-name">Rahul Reddy</h3>
-        <h5>Travel Management</h5>
-        <p>.</p>
-      </div>
-      <div class="profile">
-        <img src="./Images/G.jpg" class="profile-img">
-
-        <h3 class="user-name">Gaurav Verma</h3>
-        <h5>Control Management</h5>
-        <p></p>
-      </div>
-    </div>
-  </div>
-        </section>
-    </div>
-    <div class="login-section"></div>
-    <section id="join">
-      <button id="btn4" action="_blank"><a href="./Html/Login.html us.html">...</button></a>
     </section>
 
-    <footer class="ftr_sec">
-      <section>
-        <div class="company_sec">
-          <h1 class="logo_ftr"> <strong>Wezion</strong></h1>
-          <p class="p_company">Enjoy our trip in <em>YOUTUBE</em>, get full
-            Control for much longer.
-            </p>
-        </div>
-      </section>
+    <!-- ------videos---------- -->
+    <section class="vid-sec" id="videos">
+      <h1>Our Popular Videos</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        facere,
+      </p>
 
-      <section class="nav-col">
-         <div class="nav-row">
-          <h4 class="sub_head-ftr"><b>Company</b></h4>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Carriers</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Mobile</a>
-            </li>
-          </ul>
-         </div> 
-
-
-         <div class="nav-row1">
-          <h4 class="sub_head-ftr1"><b>Contacts</b></h4>
-          <ul class="nav flex-column">
-            <li class="nav-item1">
-              <a class="nav-link" href="#">Help/FAQ</a>
-            </li>
-            <li class="nav-item1">
-              <a class="nav-link" href="#">Press</a>
-            </li>
-            <li class="nav-item1">
-              <a class="nav-link" href="#">Affiliate</a>
-            </li>
-            <li class="nav-item1">
-              <a class="nav-link" href="#">wezionstudios@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="nav-row2">
-          <h4 class="sub_head-ftr2"><b>More</b></h4>
-          <div class="card-body">
-            <a href="#" class="card-link">Collaborations</a>
-            <a href="#" class="card-link">Membership</a>
-            <a href="#" class="card-link">Patreon</a>
+      <div class="row">
+          <div class="col">
+              <h3></h3>
           </div>
-        </div>
-      </section>
+      </div>
 
-      <section>
-        <div class="outbond_sec">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <h5><b>Discover Our App</b></h5>
-          <div>
-            <i class="fa-brands fa-google-play"></i>
-            <a href="#" class="card-link"> <b>Get It Now </b><br> GOOGLE PLAY</a>
-          </div>
-          <div>
-            <i class="fa-brands fa-apple"></i>
-            <a href="#" class="card-link"><b>Available on the</b> <br> <b>Apple Store</b></a>
-          </div>
-        </div>
-      </section>
 
-      <section>
-      <h5>
-        2020-2021 &copy; All rights reserved<br> 9996, Sector Area, Bhilai, Chhattisgarh <br>
-        490001
-      </h5>
     </section>
-    </footer>
 
-    <script type="text/javascript" src="./js/index.js"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <section id="gallery"></section>
+    <section id="about"></section>
+    <section id="contact"></section>
+
+    <script src="./js/index.js"></script>
+  </body>
 </html>
