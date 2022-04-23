@@ -366,3 +366,36 @@ p {
     flex-direction: column;
   }
 }
+
+/* <!-- ------About---------- --> */
+.about {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+.row2 {
+  margin-top: 2%;
+  margin-bottom: 0;
+  display: flex;
+  margin-right: 0;
+  justify-content: space-between;
+}
+.about-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  padding: 60px 12px;
+  box-sizing: border-box;
+}
+.about-col img {
+  width: 160px;
+  height: 130px;
+  border-radius: 50%;
+}
+.about-col h3,
+h5 {
+  text-align: center;
+  margin-left: -60px;
+}
