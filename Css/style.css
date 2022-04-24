@@ -600,6 +600,7 @@ h5 {
   }
   .footer-col {
     margin-bottom: 2rem;
+    margin-left: -80px;
   }
   .rights {
     text-align: center;
