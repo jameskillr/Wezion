@@ -594,7 +594,9 @@ h5 {
 @media (max-width: 700px) {
   .row-3 {
     flex-direction: column;
-    margin-left: -100px;
+    font-size: 10px;
+    margin-left: -50px;
+    margin-right: 20px;
   }
   .footer-col {
     margin-bottom: 2rem;
@@ -602,10 +604,5 @@ h5 {
   .rights {
     text-align: center;
     margin-left: -100px;
-  }
-  .row-3 {
-    font-size: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 }
