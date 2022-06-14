@@ -137,7 +137,7 @@ nav img {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.text-box h1 {
+.text-box h2 {
   font-size: 62px;
   color: #e7f2f8;
   background-color: transparent;
@@ -210,7 +210,7 @@ nav .i_nav {
   text-align: center;
   padding-top: 90px;
 }
-h1 {
+h2 {
   font-size: 36px;
   font-weight: 600;
   color: var(--secondary-color);
@@ -487,7 +487,7 @@ h5 {
   text-align: center;
   padding: 100px 0;
 }
-.contact h1 {
+.contact h2 {
   color: #e7f2f8;
   background-color: transparent;
   margin-bottom: 40px;
