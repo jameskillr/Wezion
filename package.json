@@ -1,0 +1,22 @@
+{
+  "name": "wezion",
+  "version": "1.0.0",
+  "description": "Its a landing page of a Youtube Channel...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskillr/Wezion.git"
+  },
+  "author": "B.Amitesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameskillr/Wezion/issues"
+  },
+  "homepage": "https://github.com/jameskillr/Wezion#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
