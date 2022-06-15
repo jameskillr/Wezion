@@ -740,4 +740,12 @@ h5 {
     font-weight: 300;
     font-size: 18px;
   }
+  .c_logo {
+    height: 160px;
+    width: 180px;
+  }
+  .footer-col p {
+    font-weight: 500;
+    font-size: 15px;
+  }
 }
