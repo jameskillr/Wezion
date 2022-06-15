@@ -313,6 +313,12 @@ p {
   width: 90px;
   position: relative;
   cursor: pointer;
+  background: rgba(98, 0, 255, 0.074);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(98, 0, 255, 1);
 }
 .vm_btn:hover {
   border: 1px solid #59de7e;
@@ -402,6 +408,12 @@ p {
   width: 90px;
   position: relative;
   cursor: pointer;
+  background: rgba(98, 0, 255, 0.074);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(98, 0, 255, 1);
 }
 .gm_btn:hover {
   border: 1px solid #59de7e;
@@ -461,7 +473,7 @@ p {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
-  border: 1px solid rgba(98, 0, 255, 1);
+  border: 1px solid rgba(98, 0, 255, 1);.
   transition: ease-in-out 0.8s;
 }
 .about-col img {
