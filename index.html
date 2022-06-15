@@ -20,11 +20,14 @@
     <link rel="icon" href="./Icons/logo.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-S08CL19575"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -44,14 +47,7 @@
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8261561109974521"
       crossorigin="anonymous"
     ></script>
-    <title>Wezion | Vlogs | Cinematics</title>
-
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8261561109974521"
-      crossorigin="anonymous"
-    ></script>
-    <title>Wezion | Vlogs | Cinematics</title>
+    <title>Wezion | Vlogs</title>
   </head>
   <body>
     <section class="header" id="home">
@@ -126,7 +122,12 @@
         <em>we create vlogs go and some of the popular vlogs from Wezion!!!</em>
       </p>
 
-      <div class="row">
+      <div
+        class="row"
+        data-aos="fade-up"
+        data-aos-offset="500"
+        data-aos-duration="500"
+      >
         <div class="col" id="y_1">
           <h3 class="v_heg">Most Watched</h3>
           <p>
@@ -156,7 +157,13 @@
     </section>
 
     <!-- ------Gallery---------- -->
-    <section id="gallery" class="gallery">
+    <section
+      id="gallery"
+      data-aos="fade-down"
+      data-aos-offset="500"
+      data-aos-duration="500"
+      class="gallery"
+    >
       <h2>Our Gallery</h2>
       <p>
         <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odit
@@ -201,7 +208,13 @@
     </section>
 
     <!-- ------About---------- -->
-    <section id="about" class="about">
+    <section
+      id="about"
+      class="about"
+      data-aos="zoom-in"
+      data-aos-offset="500"
+      data-aos-duration="500"
+    >
       <h2>About us</h2>
       <p>
         Our company genesis is from 2020 with the creation of Videos and then
@@ -247,7 +260,12 @@
     </section>
 
     <!-- ------contact---------- -->
-    <section id="contact" class="contact">
+    <section
+      id="contact"
+      class="contact"
+      data-aos-offset="500"
+      data-aos-duration="500"
+    >
       <h2>
         Subscribe to get information, latest news <br />
         and other interesting offers about Wezion
@@ -263,7 +281,12 @@
 
     <!-- ------footer---------- -->
     <section class="footer">
-      <div class="row-3">
+      <div
+        class="row-3"
+        data-aos="zoom-in"
+        data-aos-offset="100"
+        data-aos-duration="100"
+      >
         <div class="footer-col" id="">
           <a href="./Index.html"
             ><img src="./Icons/logoh.png" alt="logo" class="c_logo"
@@ -273,7 +296,7 @@
             we create vlogs....
           </p>
         </div>
-        <div class="footer-col" id="">
+        <div class="footer-col">
           <h4>Company</h4>
           <div class="nav-footer">
             <ul>
@@ -290,7 +313,7 @@
           </div>
         </div>
 
-        <div class="footer-col" id="">
+        <div class="footer-col">
           <h4>Contact</h4>
           <div class="nav-footer">
             <ul>
@@ -304,7 +327,7 @@
           </div>
         </div>
 
-        <div class="footer-col" id="">
+        <div class="footer-col">
           <h4>More</h4>
           <div class="nav-footer">
             <ul>
@@ -345,5 +368,8 @@
     </section>
 
     <script src="./js/index.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
