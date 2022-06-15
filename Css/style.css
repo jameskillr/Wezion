@@ -736,4 +736,8 @@ h5 {
     text-align: center;
     margin-left: 130px;
   }
+  .footer h4 {
+    font-weight: 300;
+    font-size: 18px;
+  }
 }
