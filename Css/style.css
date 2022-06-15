@@ -138,7 +138,7 @@ nav img {
   text-align: center;
 }
 .text-box h2 {
-  font-size: 62px;
+  font-size: 52px;
   color: #e7f2f8;
   background-color: transparent;
 }
@@ -211,8 +211,9 @@ nav .i_nav {
   padding-top: 90px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 50px;
   font-weight: 600;
+  text-shadow: #5d00ff 2px 1.1px;
   color: var(--secondary-color);
 }
 p {
@@ -220,7 +221,9 @@ p {
   background-color: transparent;
   font-size: 14px;
   font-weight: 300;
-  line-height: 22px;
+  /* line-height: 22px; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 10px;
 }
 .row {
@@ -416,7 +419,7 @@ p {
 /* <!-- ------About---------- --> */
 .about {
   width: 80%;
-  margin: auto;
+  margin: 10px auto;
   text-align: center;
   padding: 100px;
 }
@@ -439,7 +442,15 @@ p {
   transition: ease-in 1s;
 }
 .about-col:hover {
-  background: #6200ff;
+  /* background: #6200ff; */
+  /* From https://css.glass */
+  background: rgba(98, 0, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(98, 0, 255, 1);
+  transition: 0.6s;
 }
 .about-col img {
   width: 160px;
@@ -448,7 +459,7 @@ p {
 }
 .about h2 {
   padding: 20px;
-  font-size: 38px;
+  font-size: 50px;
 }
 .about-col h3,
 h5 {
@@ -456,7 +467,8 @@ h5 {
   margin-top: 16px;
   margin-bottom: 15px;
   border-radius: 10px;
-  background-color: var(--primary-color);
+  /* background-color: var(--primary-color); */
+  background-color: transparent;
 }
 @media (max-width: 700px) {
   .about {
@@ -477,7 +489,9 @@ h5 {
 
 /* <!-- ------Contact---------- --> */
 .contact {
-  margin: 100px auto;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: -80px;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../Images/i6.jpg);
@@ -485,7 +499,7 @@ h5 {
   background-size: cover;
   border-radius: 10px;
   text-align: center;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 .contact h2 {
   color: #e7f2f8;
@@ -525,9 +539,9 @@ h5 {
 /* <!-- ------footer---------- --> */
 .footer {
   text-align: center;
-  width: 80%;
+  width: 70%;
   margin: auto;
-  padding: 100px;
+  padding: 0 0px;
 }
 .footer h4 {
   margin-bottom: 25px;
@@ -541,12 +555,13 @@ h5 {
   height: 100px;
   width: 120px;
 }
-.icons img {
+.icons-col img {
   width: 20px;
-  margin: 0 13px;
+  margin: 0 10px;
   cursor: pointer;
+  display: flex;
   padding: 18px 0;
-  height: 15px;
+  /* height: 15px; */
 
   background-color: transparent;
 }

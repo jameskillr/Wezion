@@ -11,8 +11,9 @@ body {
 }
 .container h1 {
   padding: 60px 0;
-  color: #e7f2f8;
+  color: black;
   font-size: 44px;
+  text-shadow: 2px 2px #5d00ff;
   text-align: center;
 }
 .row {
