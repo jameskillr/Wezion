@@ -84,10 +84,11 @@ secondary - #050a30 */
   background-color: transparent;
 }
 .Error p {
-  margin-left: 500px;
+  margin-left: 450px;
   color: black;
+  font-size: 20px;
   font-weight: 600;
-  text-shadow: #e7f2f8 1px 0.6px;
+  text-shadow: #e7f2f8 1px 0.1px;
   background-color: transparent;
 }
 .Error a {
@@ -213,7 +214,7 @@ nav img {
   display: inline-block;
   text-decoration: none;
   color: #e7f2f8;
-  border: 1px solid #e7f2f8;
+  /* border: 1px solid #e7f2f8; */
   padding: 12px 34px;
   font-size: 13px;
   background: transparent;
@@ -221,7 +222,7 @@ nav img {
   cursor: pointer;
 }
 .h_btn:hover {
-  border: 1px solid #59de7e;
+  border: 2px solid #59de7e;
   background: #6200ff;
   transition: 0.6s;
 }
