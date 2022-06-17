@@ -29,7 +29,7 @@ secondary - #050a30 */
 }
 
 .header {
-  height: 68vh;
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(
       rgba(4, 9, 30, 0.671),
@@ -51,7 +51,7 @@ secondary - #050a30 */
   /* size: 20px; */
   height: 200px;
   margin-left: 650px;
-  margin-top: 50px;
+  margin-top: 170px;
   /* font-size: 30px; */
   position: relative;
   z-index: 1;
@@ -94,7 +94,10 @@ secondary - #050a30 */
   margin-left: 700px;
   margin-top: 20px;
   border-radius: 20px;
-  background-color: transparent;
+  background: #4302aa;
+}
+.Error a:hover {
+  background-color: #6200ff;
 }
 nav {
   display: flex;
@@ -220,7 +223,7 @@ nav img {
 .h_btn:hover {
   border: 1px solid #59de7e;
   background: #6200ff;
-  transition: 1s;
+  transition: 0.6s;
 }
 
 nav .i_nav {
@@ -263,204 +266,5 @@ nav .i_nav {
   }
   nav ul {
     padding: 30px;
-  }
-}
-
-/* <!-- ------footer---------- --> */
-.f {
-  /* background-color: #000; */
-  border-top: 1px solid rgb(36, 36, 36);
-}
-.footer {
-  text-align: center;
-  width: 70%;
-  margin: auto;
-  padding: 0 0px;
-  /* background-color: #000; */
-}
-.footer h4 {
-  margin-bottom: 25px;
-  margin-top: 20px;
-  font-weight: 600;
-  /* background-color: #000; */
-}
-.footer-col {
-  /* background-color: #000; */
-}
-.footer-col a {
-  text-decoration: none;
-  /* background-color: #000; */
-}
-.c_logo {
-  height: 100px;
-  width: 120px;
-  /* background-color: #000; */
-}
-.icons-col {
-  /* background-color: #000; */
-}
-.icons-col img {
-  width: 20px;
-  margin: 0 10px;
-  cursor: pointer;
-  display: flex;
-  padding: 18px 0;
-  height: 18px;
-  /* background-color: #000; */
-  background-color: transparent;
-}
-.ic_1 {
-  width: 18px;
-  height: 16px;
-  /* background-color: #000; */
-}
-.company {
-  text-align: left;
-  width: 100%;
-  padding: 30px 0;
-  /* background-color: #000; */
-}
-.rights {
-  padding: 10px;
-  /* background-color: #000; */
-}
-.row-3 {
-  margin-top: 2%;
-  margin-bottom: 0;
-  display: flex;
-  margin-right: 0;
-  /* background-color: #000; */
-  justify-content: space-between;
-}
-.nav-footer {
-  display: block;
-  text-align: center;
-  /* background-color: #000; */
-  flex-direction: column;
-}
-.nav-footer ul {
-  /* margin-top: 100px; */
-  flex-direction: column;
-  /* background-color: #000; */
-}
-.nav-footer ul li {
-  list-style: none;
-  display: block;
-  padding: 8px 12px;
-  /* background-color: #000; */
-  position: relative;
-}
-.nav-footer ul li a {
-  color: #ccb8d7;
-  text-decoration: none;
-  /* background-color: #000; */
-  font-size: 13px;
-}
-.nav-footer ul li::after {
-  content: "";
-  width: 0%;
-  height: 2px;
-  background: #59de7e;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
-.nav-footer ul li:hover::after {
-  width: 100%;
-}
-.l_ftr img {
-  height: 40px;
-  width: 50px;
-  font-size: 30px;
-  /* margin-top: 90px; */
-  padding-left: -70px;
-  /* background-color: #000; */
-}
-.s_ftr {
-  color: #ccb8d7;
-  /* background-color: #000; */
-  font-size: 20px;
-}
-.l_ftr {
-  /* background: #000; */
-  border-radius: 30px;
-  padding-right: 30px;
-  font-size: 10px;
-  margin-right: 1rem;
-  text-align: center;
-  display: flex;
-  transition: ease-in 1s;
-}
-.p_1 {
-  margin-top: 20px;
-  margin-left: -68px;
-  /* background-color: #000; */
-  background-color: transparent;
-}
-.p_2 {
-  margin-top: 20px;
-  color: #e7f2f8;
-  background-color: transparent;
-  /* background-color: #000; */
-  margin-left: -128px;
-}
-.p_2 b {
-  background-color: transparent;
-  /* background-color: #000; */
-}
-.he_1 {
-  margin-top: 20px;
-  color: #e7f2f8;
-  background-color: transparent;
-  /* background-color: #000; */
-}
-.he_1 b {
-  background-color: transparent;
-  /* background-color: #000; */
-}
-.he_2 {
-  font-size: 9px;
-  color: #e7f2f8;
-  background-color: transparent;
-  /* background-color: #000; */
-  letter-spacing: 2px;
-  margin-left: -10px;
-}
-
-@media (max-width: 700px) {
-  .row-3 {
-    flex-direction: column;
-    font-size: 10px;
-    margin-left: 0px;
-    margin-right: 20px;
-  }
-  .footer-col {
-    margin-bottom: 2rem;
-    margin-left: 10px;
-  }
-  .l_ftr {
-    margin-left: 140px;
-    margin-right: 90px;
-  }
-  .rights {
-    text-align: center;
-  }
-  .icons-col img {
-    flex-direction: column;
-    display: flex;
-    text-align: center;
-    margin-left: 130px;
-  }
-  .footer h4 {
-    font-weight: 300;
-    font-size: 18px;
-  }
-  .c_logo {
-    height: 160px;
-    width: 180px;
-  }
-  .footer-col p {
-    font-weight: 500;
-    font-size: 15px;
   }
 }
