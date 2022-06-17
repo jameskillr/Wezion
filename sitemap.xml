@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD -->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -7,7 +7,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-=======
+<!-- ======= -->
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -16,7 +16,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
->>>>>>> 846dff0426a34963f574a2b97b9414cb413d77e2
+<!-- >>>>>>> 846dff0426a34963f574a2b97b9414cb413d77e2 -->
 
 <url>
   <loc>https://wezion.netlify.app/</loc>
@@ -42,13 +42,13 @@
   <loc>https://wezion.netlify.app/html/gallery</loc>
   <lastmod>2022-06-14T19:59:04+00:00</lastmod>
   <priority>0.80</priority>
-<<<<<<< HEAD
+<!-- <<<<<<< HEAD -->
 </url>
 
 
-=======
+<!-- ======= -->
 </url>
 
 
->>>>>>> 846dff0426a34963f574a2b97b9414cb413d77e2
+<!-- >>>>>>> 846dff0426a34963f574a2b97b9414cb413d77e2 -->
 </urlset>
