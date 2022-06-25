@@ -38,6 +38,9 @@ secondary - #050a30 */
   position: relative;
   background-color: transparent;
 }
+.header h1{
+  padding-left: 7rem;
+}
 nav {
   display: flex;
   padding: 2% 6%;
