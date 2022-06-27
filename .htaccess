@@ -1,1 +1,3 @@
+Redirect 301 / https://wezion.netlify.app
+
 ErrorDocument 404 /404.html
