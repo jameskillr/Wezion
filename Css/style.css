@@ -32,7 +32,7 @@ secondary - #050a30 */
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(../Images/1.jpg);
+    url(../img/boat.webp);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -255,17 +255,17 @@ p {
   color: var(--secondary-color);
 }
 #y_1 {
-  background: url(../Images/t5.jpg);
+  background: url(../img/thumbnail4.webp);
   background-position: center;
   background-size: cover;
 }
 #y_2 {
-  background: url(../Images/v1.jpg);
+  background: url(../img/thumbnail5.webp);
   background-position: center;
   background-size: cover;
 }
 #y_3 {
-  background: url(../Images/v2.jpg);
+  background: url(../img/thumbnail6.webp);
   background-position: center;
   background-size: cover;
 }
@@ -524,7 +524,7 @@ h5 {
   margin-top: -80px;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../Images/i6.jpg);
+    url(../img/friends.webp);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
