@@ -41,7 +41,7 @@ with an audience.Few people are watching basic vlog!!!
 
 ## About The Project
 
-![Screen Shot](https://wezion.netlify.app/images/Website.png)
+![Screen Shot](https://wezion.netlify.app/img/Website.png)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
 
