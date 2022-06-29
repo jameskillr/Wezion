@@ -5,28 +5,50 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://wezion.netlify.app/</loc>
-  <lastmod>2022-06-14T19:59:04+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>https://wezion.netlify.app/</loc>
+	<lastmod>2022-06-27T11:38:41+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>https://wezion.netlify.app/html/login</loc>
-  <lastmod>2022-06-14T19:59:04+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://wezion.netlify.app/Html/Login.html</loc>
+	<lastmod>2022-06-27T11:38:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://wezion.netlify.app/html/signup</loc>
-  <lastmod>2022-06-14T19:59:04+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://wezion.netlify.app/Html/Signup.html</loc>
+	<lastmod>2022-06-27T11:38:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>https://wezion.netlify.app/html/videos</loc>
-  <lastmod>2022-06-14T19:59:04+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>https://wezion.netlify.app/Html/gallery.html</loc>
+	<lastmod>2022-06-27T11:38:41+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
+<<<<<<< HEAD
   <loc>https://wezion.netlify.app/html/gallery</loc>
   <lastmod>2022-06-14T19:59:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+=======
+	<loc>https://wezion.netlify.app/html/login</loc>
+	<lastmod>2022-06-27T11:38:44+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wezion.netlify.app/html/signup</loc>
+	<lastmod>2022-06-27T11:38:45+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wezion.netlify.app/html/videos</loc>
+	<lastmod>2022-06-27T11:38:45+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://wezion.netlify.app/html/gallery</loc>
+	<lastmod>2022-06-27T11:38:46+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+>>>>>>> 2e82b2d56120d18485ee299b38b652630ce19c0a
 </urlset>
