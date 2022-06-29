@@ -60,13 +60,15 @@ body {
 }
 @media (max-width: 700px) {
   form {
-    margin-left: -25rem;
+    margin-top: -10rem;
+    margin-left: -23rem;
     margin-right: 8rem;
   }
   .icons {
-    margin-left: -2rem;
+    margin-left: -5rem;
     padding: 0;
-    margin-left: -8rem;
+    margin-left: -14rem;
     margin-bottom: 0px;
+    margin-top: -8rem;
   }
 }
