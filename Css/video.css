@@ -23,8 +23,10 @@ body {
 }
 
 #i_bc {
-  padding: 20px 40px;
-  font-size: 27px;
+  padding: 2rem 4rem;
+  font-size: 2rem;
+  margin-left: -4rem;
+  height: 2rem;
 }
 
 .col {

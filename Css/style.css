@@ -39,7 +39,7 @@ secondary - #050a30 */
   background-color: transparent;
 }
 .header h1{
-  padding-left: 7rem;
+  padding-left: 2rem;
 }
 nav {
   display: flex;
@@ -466,7 +466,7 @@ p {
   background-color: var(--primary-color);
   padding: 60px 12px;
   box-sizing: border-box;
-  transition: ease-in 1s;
+  transition: ease-in 0.4s;
 }
 .about-col:hover {
   /* background: #6200ff; */
@@ -477,7 +477,7 @@ p {
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border: 1px solid rgba(98, 0, 255, 1);.
-  transition: ease-in-out 0.8s;
+  transition: ease-in-out 0.6s;
 }
 .about-col img {
   width: 160px;

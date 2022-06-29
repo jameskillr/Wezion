@@ -25,9 +25,13 @@ body {
 }
 
 #i_bc {
-  padding: 20px 0px;
-  font-size: 27px;
+  /* padding: 2rem 0px; */
+  font-size: 1em;
+  color: #a93aff;
+  padding-top: 2rem;
+  height: 5rem;
   margin-left: 200px;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -43,6 +47,9 @@ body {
   max-width: 720px;
   width: 100%;
   justify-content: space-between;
+}
+.items {
+  margin-left: -12rem;
 }
 .items span {
   padding: 7px 25px;
@@ -135,7 +142,8 @@ body {
 }
 .details .icon {
   color: #6300f7;
-  font-style: 22px;
+  font-size: 22px;
+  /* height: 2rem; */
   cursor: pointer;
 }
 .preview-box .image-box {
