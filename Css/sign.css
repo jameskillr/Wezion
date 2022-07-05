@@ -61,13 +61,10 @@ body {
 @media (max-width: 700px) {
   form {
     margin-top: -10rem;
-<<<<<<< HEAD
     margin-left: -23rem;
     margin-right: 8rem;
-=======
     margin-left: -19rem;
     margin-right: 5rem;
->>>>>>> 0d9e2aca3effd82b7acdfb676890f3fbc926c50b
   }
   .icons {
     margin-left: -5rem;
