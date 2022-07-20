@@ -6,6 +6,7 @@ function showMenu() {
 
 function hideMenu() {
   navLinks.style.right = "-200px";
+  navLinks.style.display = none;
 }
 
 var icon = document.getElementById("icon");
