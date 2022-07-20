@@ -211,6 +211,45 @@ nav .i_nav {
   }
 }
 
+@media (max-width: 400px) {
+  .text-box h2 {
+    font-size: 38px;
+  }
+  .text-box p {
+    font-size: 13px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    /* background: #6200ff; */
+
+    background: rgba(98, 0, 255, 0.326);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(98, 0, 255, 1);
+    /* transition: ease-in-out 0.8s; */
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .i_nav {
+    display: block;
+    margin: 10px;
+    cursor: pointer;
+  }
+  nav ul {
+    padding: 30px;
+  }
+}
+
 /* <!-- ------videos---------- --> */
 .vid-sec {
   width: 80%;
