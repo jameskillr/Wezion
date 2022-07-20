@@ -5,7 +5,7 @@ function showMenu() {
 }
 
 function hideMenu() {
-  navLinks.style.display = none;
+  navLinks.style.display = "none";
 }
 
 var icon = document.getElementById("icon");
