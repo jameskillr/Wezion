@@ -2,6 +2,7 @@ var navLinks = document.getElementById("navLinks");
 
 function showMenu() {
   navLinks.style.right = "0px";
+  navLinks.style.display = "flex";
 }
 
 function hideMenu() {
