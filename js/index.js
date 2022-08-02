@@ -2,13 +2,13 @@ var navLinks = document.getElementById("navLinks");
 var menuBtn = document.getElementById("menu_btn");
 
 function showMenu() {
-  navLinks.style.right = "0px";
+  navLinks.style.right = "0%";
   navLinks.style.display = "block";
   menuBtn.style.display = "none";
 }
 
 function hideMenu() {
-  navLinks.style.right = "-200px";
+  navLinks.style.right = "-100%";
   navLinks.style.display = "none";
   menuBtn.style.display = "block";
 }
@@ -41,7 +41,7 @@ icon.onclick = function () {
 };
 
 // scroll
-window.addEventListener("scroll", function () {
-  var header = document.querySelector("header");
-  header.classList.toggle("sticky", window.scrollY > 0);
-});
+// window.addEventListener("scroll", function () {
+//   var header = document.querySelector("header");
+//   header.classList.toggle("sticky", window.scrollY > 0);
+// });
