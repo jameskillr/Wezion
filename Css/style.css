@@ -51,7 +51,6 @@ nav {
 .i_nav {
   height: 20px;
   width: 20px;
-  padding: 10px 0 0 8px;
   background-color: transparent;
 }
 nav a {
@@ -204,6 +203,7 @@ nav .i_nav {
   nav .i_nav {
     display: block;
     margin: 10px;
+    padding: 10px 0 0 8px;
     cursor: pointer;
   }
   nav ul {
