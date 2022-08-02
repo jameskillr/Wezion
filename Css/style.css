@@ -794,11 +794,14 @@ h5 {
   .rights {
     text-align: center;
   }
+  .icons-col {
+    display: flex;
+  }
   .icons-col img {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     text-align: center;
-    margin-left: 130px;
+    margin-left: 50px;
   }
   .footer h4 {
     font-weight: 300;
