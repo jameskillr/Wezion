@@ -1,13 +1,16 @@
 var navLinks = document.getElementById("navLinks");
+var menuBtn = document.getElementById("menu_btn");
 
 function showMenu() {
   navLinks.style.right = "0px";
-  navLinks.style.display = "flex";
+  navLinks.style.display = "block";
+  menuBtn.style.display = "none";
 }
 
 function hideMenu() {
   navLinks.style.right = "-200px";
   navLinks.style.display = "none";
+  menuBtn.style.display = "block";
 }
 
 var icon = document.getElementById("icon");
@@ -42,6 +45,3 @@ window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 0);
 });
-
-
-
