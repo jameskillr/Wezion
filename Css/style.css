@@ -5,14 +5,6 @@ brand - #6200ff
 acsent - #59DE7E
 secondary - #050a30 */
 
-* {
-  padding: 0;
-  margin: 0;
-
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-}
-
 :root {
   --primary-color: #e7f2f8;
   --secondary-color: #050a30;
@@ -20,6 +12,13 @@ secondary - #050a30 */
 .dark-mode {
   --primary-color: #050a30;
   --secondary-color: #e7f2f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 #icon {
@@ -52,6 +51,7 @@ nav {
 .i_nav {
   height: 20px;
   width: 20px;
+  padding: 10px 0 0 8px;
   background-color: transparent;
 }
 nav a {
