@@ -173,7 +173,7 @@ nav .i_nav {
   transition: all 0.6s ease;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .text-box h2 {
     font-size: 38px;
   }
@@ -205,45 +205,6 @@ nav .i_nav {
     height: 40px;
     width: 30px;
     padding: 80px 0 0 140px;
-    cursor: pointer;
-  }
-  nav ul {
-    padding: 30px;
-  }
-}
-
-@media (max-width: 412px) {
-  .text-box h2 {
-    font-size: 38px;
-  }
-  .header {
-    width: 30rem;
-  }
-  .text-box p {
-    font-size: 13px;
-  }
-  .nav-links ul li {
-    display: block;
-  }
-  .nav-links {
-    position: absolute;
-    display: none;
-    background: rgba(98, 0, 255, 0.326);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
-    border: 1px solid rgba(98, 0, 255, 1);
-    height: 100vh;
-    width: 100%;
-    top: 0;
-    right: -100%;
-    text-align: left;
-    z-index: 2;
-  }
-  nav .i_nav {
-    display: block;
-    margin: 10px;
     cursor: pointer;
   }
   nav ul {
@@ -369,7 +330,7 @@ p {
   transition: 1s;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .row {
     flex-direction: column;
   }
@@ -470,7 +431,7 @@ p {
   margin-right: 0;
   justify-content: space-between;
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .gallery {
     margin-top: 45rem;
   }
@@ -537,7 +498,7 @@ h5 {
   /* background-color: var(--primary-color); */
   background-color: transparent;
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .about {
     margin-top: 650px;
     margin-left: -3.5rem;
@@ -601,7 +562,7 @@ h5 {
   background: #6200ff;
   transition: 1s;
 }
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .contact h2 {
     font-size: 24px;
   }
@@ -776,7 +737,7 @@ h5 {
   margin-left: -10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 480px) {
   .row-3 {
     flex-direction: column;
     font-size: 10px;
