@@ -118,65 +118,95 @@
   </head>
   <body>
     <section class="header" id="home">
-      <nav>
-        <a href="./Index.html"
-          ><img src="./Icons/logoh.png" alt="logo" />
-          <h1>ezion</h1></a
-        >
+      <nav>      
+        <!-- Split nav into 3 sections -->
+
+        <!-- links moves in from left now -->
         <div
           class="nav-links"
-          id="navLinks"
-          data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="2000"
-        >
+          id="navLinksLeft"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-duration="2000">
+         
+          <!-- close mobile menu -->
           <img
             src="./Icons/cancel.png"
             onclick="hideMenu()"
             class="i_nav"
-            alt="cancel"
-          />
-          <ul>
-            <li>
-              <a href="#home">HOME</a>
-            </li>
-            <li>
-              <a href="#videos">VIDEOS</a>
-            </li>
-            <li>
-              <a href="#gallery">GALLERY</a>
-            </li>
-            <li>
-              <a href="#about">ABOUT</a>
-            </li>
-            <li>
-              <a href="#contact">CONTACT</a>
-            </li>
+            id="close-nav"
+            alt="cancel"/>
 
-            <a href="./Member/Login.html" class="nav_btn">Login</a>
+          <!-- links to sections -->
+            <ul>
+              <li>
+                <a href="#home">HOME</a>
+              </li>
+              <li>
+                <a href="#videos">VIDEOS</a>
+              </li>
+              <li>
+                <a href="#gallery">GALLERY</a>
+              </li>
+              <li>
+                <a href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a href="#contact">CONTACT</a>
+              </li>
 
-            <a href="./Member/Signup.html" class="nav_btn">Register</a>
+            <!-- adds the call-to-action and toggle back to mobile menu -->
+              <span id="hidden">
+                <a href="./Member/Login.html" class="nav_btn">Login</a>
 
-            <img src="./Icons/moon.png" alt="moon" id="icon" onclick="" />
+                <a href="./Member/Signup.html" class="nav_btn">Register</a>
+
+                <img src="./Icons/moon.png" alt="moon" id="icon" onclick=""/>
+            </span>
           </ul>
         </div>
-        <img
-          src="./Icons/menu.png"
-          onclick="showMenu()"
-          id="menu_btn"
-          class="i_nav"
-          alt="menu"
-        />
+
+        <!-- logo centered in desktop view now-->
+          <div class="logo">
+           <a href="./Index.html">
+           <!-- I modified the image to remove the text: it was too small to read was distracting -->
+           <img src="./Icons/logoh_modified.png" alt="logo" /> 
+              <h1>ezion</h1></a>
+          </div>
+
+          <!-- mobile hamburger -->
+          <img
+            src="./Icons/menu.png"
+            onclick="showMenu()"
+            id="menu_btn"
+            class="i_nav"
+            alt="menu"/>
+
+          <!-- Call to action and light/dark toggle fade in from the right -->
+          <div class="nav-links" 
+            id="navLinksRight"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-duration="2000">
+            <ul>
+              <a href="./Member/Login.html" class="nav_btn">Login</a>
+
+              <a href="./Member/Signup.html" class="nav_btn">Register</a>
+
+              <img src="./Icons/moon.png" alt="moon" id="icon" onclick=""/>
+            </ul>
+         </div>
       </nav>
-      <div class="text-box">
-        <h2 data-aos="flip-up" data-aos-duration="2000">
-          Let's Explore the World Together
-        </h2>
-        <p data-aos="flip-down" data-aos-duration="2000">
-          Travelling vlogs make for great content to post on YouTube and other
-          social media platforms.<br />
-          With so many creatives vlogging their lives, it has become an easy way
-          to connect<br />
+      
+        <div class="text-box">
+          <h2 data-aos="flip-up" data-aos-duration="2000">
+            Let's Explore the World Together
+          </h2>
+          <p data-aos="flip-down" data-aos-duration="2000">
+            Travelling vlogs make for great content to post on YouTube and other
+            social media platforms.<br />
+            With so many creatives vlogging their lives, it has become an easy way
+            to connect<br />
           with an audience.Few people are watching basic vlog!!!
         </p>
         <a
@@ -222,7 +252,8 @@
           </p>
           <a href="https://youtu.be/xWUT6zA7ZGU" class="v_btn">Watch Now</a>
         </div>
-        <div class="col" id="y_3" data-aos="fade-left" data-aos-duration="2000">
+        <!-- changed this to move down to prevent x overflow -->
+        <div class="col" id="y_3" data-aos="fade-down" data-aos-duration="2000">
           <h3 class="v_heg">Must Watch</h3>
           <p>
             <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae

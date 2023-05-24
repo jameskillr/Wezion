@@ -1,5 +1,7 @@
-var navLinks = document.getElementById("navLinks");
-var menuBtn = document.getElementById("menu_btn");
+// updated var to const
+const navLinks = document.querySelector(".nav-links");
+const menuBtn = document.getElementById("menu_btn");
+const links = navLinks.querySelectorAll("a");
 
 function showMenu() {
   navLinks.style.right = "0%";
@@ -13,6 +15,38 @@ function hideMenu() {
   menuBtn.style.display = "block";
 }
 
+// prevents the mobile menu from showing in desktop view
+function handleResize() {
+  if (window.innerWidth >= 480) {
+    showMenu();
+  } else {
+    hideMenu();
+  }
+}
+
+function closeMenu(event) {
+  // Check the viewport width
+  if (window.innerWidth < 480) {
+    hideMenu();
+
+    if (window.innerWidth >= 480) {
+      menuBtn.style.display = "none";
+    }
+  }
+}
+
+window.addEventListener("resize", handleResize);
+
+handleResize();
+
+// closes the mobile menu when a link is clicked
+links.forEach(function (link) {
+  link.addEventListener("click", closeMenu);
+});
+
+
+
+// toggle light and dark modes
 var icon = document.getElementById("icon");
 
 if (localStorage.getItem("mode") == null) {
