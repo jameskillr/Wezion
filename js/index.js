@@ -47,7 +47,7 @@ links.forEach(function (link) {
 
 
 // toggle light and dark modes
-var icon = document.getElementById("icon");
+const icons = document.getElementsByClassName("icon");
 
 if (localStorage.getItem("mode") == null) {
   localStorage.setItem("mode", "light");
@@ -56,23 +56,34 @@ if (localStorage.getItem("mode") == null) {
 let localData = localStorage.getItem("mode");
 
 if (localData == "light") {
-  icon.src = "./icons/moon.png";
+  for (let i = 0; i < icons.length; i++) {
+    icons[i].src = "./icons/moon.png";
+  }
   document.body.classList.remove("dark-mode");
 } else if (localData == "dark") {
-  icon.src = "./icons/sun.png";
+  for (let i = 0; i < icons.length; i++) {
+    icons[i].src = "./icons/sun.png";
+  }
   document.body.classList.add("dark-mode");
 }
 
-icon.onclick = function () {
-  document.body.classList.toggle("dark-mode");
-  if (document.body.classList.contains("dark-mode")) {
-    icon.src = "./icons/sun.png";
-    localStorage.setItem("mode", "dark");
-  } else {
-    icon.src = "./icons/moon.png";
-    localStorage.setItem("mode", "light");
-  }
-};
+for (let i = 0; i < icons.length; i++) {
+  icons[i].onclick = function () {
+    const currentMode = localStorage.getItem("mode");
+    if (currentMode == "light") {
+      this.src = "./icons/sun.png";
+      localStorage.setItem("mode", "dark");
+      document.body.classList.add("dark-mode");
+    } else if (currentMode == "dark") {
+      this.src = "./icons/moon.png";
+      localStorage.setItem("mode", "light");
+      document.body.classList.remove("dark-mode");
+    }
+  };
+}
+
+
+
 
 // scroll
 // window.addEventListener("scroll", function () {
